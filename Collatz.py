@@ -10,7 +10,7 @@
 # collatz_read
 # ------------
 
-def collatz_read (s) :
+def collatz_read (s) : 
     """
     read two ints
     s a string

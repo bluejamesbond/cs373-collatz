@@ -104,7 +104,3 @@ def collatz_solve(r, w):
         i, j = collatz_read(s)
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
-
-
-# build the cache
-collatz_eval(0, 1000000)

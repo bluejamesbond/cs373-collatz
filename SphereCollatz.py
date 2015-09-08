@@ -107,8 +107,5 @@ def collatz_solve(r, w):
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
 
-
-collatz_eval(0, 1000000)
-
 if __name__ == "__main__":
     collatz_solve(sys.stdin, sys.stdout)

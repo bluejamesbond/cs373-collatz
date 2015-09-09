@@ -25,13 +25,15 @@ def collatz_read(s):
 # ------------
 # collatz_eval
 # ------------
-cache = {}
+cache = [None] * 1000000
 
 
 def collatz_cycle_length(i):
+    i = int(i)
+
     if i == 1:
         return 1
-    if i in cache:
+    if i < len(cache) and cache[i] is not None:
         return cache[i]
 
     if i % 2 == 0:
@@ -39,10 +41,13 @@ def collatz_cycle_length(i):
     else:
         i = 3 * i + 1
 
+    i = int(i)
+
     cycles = collatz_cycle_length(i)
 
-    if i not in cache:
-        cache[i] = cycles
+    if i < 1000000:
+        if cache[i] is None:
+            cache[i] = cycles
 
     return 1 + cycles
 

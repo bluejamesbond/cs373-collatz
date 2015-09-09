@@ -182,5 +182,5 @@ def collatz_solve(r, w):
         collatz_print(w, i, j, v)
 
 
-print(collatz_eval(1, 10000))
+# print(collatz_eval(1, 10000))
 

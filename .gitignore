@@ -10,3 +10,4 @@ __pycache__
 *.log
 
 peer-tester.sh
+/sphere-build.sh

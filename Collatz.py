@@ -24,7 +24,7 @@ def collatz_read(s):
 
 
 # fixed lazy cache
-cache = [None] * 1000000
+cache = {}
 
 # lut table
 memo = [179, 182, 217, 238, 215, 236, 262, 252, 247, 260, 268, 250, 263, 276, 271, 271, 266, 279, 261, 274, 256, 269,
@@ -89,7 +89,7 @@ def collatz_cycle_length(i):
 
     if i == 1:
         return 1
-    if i < len(cache) and cache[i] is not None:
+    if i in cache:
         return cache[i]
 
     if i % 2 == 0:
@@ -101,9 +101,8 @@ def collatz_cycle_length(i):
 
     cycles = collatz_cycle_length(i)
 
-    if i < 1000000:
-        if cache[i] is None:
-            cache[i] = cycles
+    if i not in cache:
+        cache[i] = cycles
 
     return 1 + cycles
 
@@ -195,5 +194,3 @@ def collatz_solve(r, w):
         i, j = collatz_read(s)
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
-
-# print(collatz_eval(1, 10000))

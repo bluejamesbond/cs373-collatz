@@ -23,10 +23,10 @@ def collatz_read(s):
     return [int(a[0]), int(a[1])]
 
 
-# ------------
-# collatz_eval
-# ------------
+# fixed lazy cache
 cache = [None] * 1000000
+
+# lut table
 memo = [179, 182, 217, 238, 215, 236, 262, 252, 247, 260, 268, 250, 263, 276, 271, 271, 266, 279, 261, 274, 256, 269,
         269, 282, 264, 264, 308, 259, 259, 272, 272, 285, 267, 267, 311, 324, 249, 306, 244, 306, 288, 257, 288, 270,
         270, 314, 283, 314, 296, 296, 278, 309, 340, 322, 260, 260, 322, 304, 273, 304, 335, 317, 286, 330, 299, 268,
@@ -75,7 +75,16 @@ memo = [179, 182, 217, 238, 215, 236, 262, 252, 247, 260, 268, 250, 263, 276, 27
         321, 321, 352, 290, 365, 365, 365, 440, 396]
 
 
+# ------------
+# collatz_cycle_length
+# ------------
+
 def collatz_cycle_length(i):
+    """
+    i the value to check cycle length for
+    return cycle length of the input value
+    """
+
     i = int(i)
 
     if i == 1:
@@ -98,6 +107,10 @@ def collatz_cycle_length(i):
 
     return 1 + cycles
 
+
+# ------------
+# collatz_eval
+# ------------
 
 def collatz_eval(i, j):
     """
@@ -181,6 +194,4 @@ def collatz_solve(r, w):
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
 
-
 # print(collatz_eval(1, 10000))
-

@@ -142,7 +142,7 @@ def collatz_eval(i, j):
         memo_i = int(math.ceil(i / 1000) * 1000)
         memo_j = int(math.floor(j / 1000) * 1000)
         pre = [i, memo_i]
-        post = [memo_j, j]
+        post = [memo_j, j + 1]
         for curr in range(memo_i, memo_j, 1000):
             max_cycles = max(max_cycles, memo[int(curr / 1000)])
 
@@ -161,6 +161,8 @@ def collatz_eval(i, j):
 
             if cycles > max_cycles:
                 max_cycles = cycles
+
+    assert max_cycles > 0
 
     return max_cycles
 

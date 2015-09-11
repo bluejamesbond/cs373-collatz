@@ -15,7 +15,7 @@
 from io import StringIO
 from unittest import main, TestCase
 
-from Collatz import collatz_read, collatz_eval, collatz_print, collatz_solve
+from Collatz import collatz_read, collatz_eval, collatz_print, collatz_solve, collatz_cycle_length
 
 
 # -----------
@@ -70,6 +70,26 @@ class TestCollatz(TestCase):
     def test_eval_4(self):
         v = collatz_eval(900, 1000)
         self.assertEqual(v, 174)
+
+    # ----
+    # collatz_cycle_length
+    # ----
+
+    def test_cycle_length_1(self):
+        v = collatz_cycle_length(1)
+        self.assertEqual(v, 1)
+
+    def test_cycle_length_2(self):
+        v = collatz_cycle_length(100)
+        self.assertEqual(v, 26)
+
+    def test_cycle_length_3(self):
+        v = collatz_cycle_length(201)
+        self.assertEqual(v, 19)
+
+    def test_cycle_length_4(self):
+        v = collatz_cycle_length(900)
+        self.assertEqual(v, 55)
 
     # -----
     # print

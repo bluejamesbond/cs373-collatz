@@ -1,0 +1,155 @@
+commit 38f2f33fc59443bb69aeeb20cb177579f7b5cf5d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 19:03:39 2015 -0500
+
+    Adding tests for additional functions
+
+commit 87ca86f8b58b465d361c3ceaa07849dfdf0eaef4
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 18:49:56 2015 -0500
+
+    Updating to dic instead of fixed array for lazy cache
+
+commit 5ce0812d2376b2928908affcf5866a660be9bb86
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 18:26:13 2015 -0500
+
+    Bug fix
+
+commit 5fefa246894b1f01684f0cf1f1e00cb02b10e375
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 12:03:38 2015 -0500
+
+    Adding documentation; fixes #16
+
+commit 0371e9ad9d45c2cc43b043a748a7b968f2ef73d9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 11:55:55 2015 -0500
+
+    Running via local
+
+commit 2f635a110ad6f2b603ba6cf3f57cc79de2a63a75
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 11:52:36 2015 -0500
+
+    Adding additional tests
+
+commit 856dc865f1eb2d8c6ad3a9f7623685d7d3e5674b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 11:44:41 2015 -0500
+
+    Updating tests
+
+commit 938c3b2d95bad8292abe823c3b89f37b4c44667d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 11:22:50 2015 -0500
+
+    Adding outfield
+
+commit 8bfd8820fab7af442cbdd5edbd1623fade8580c5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Sep 10 11:19:47 2015 -0500
+
+    Adding test cases
+
+commit a439e9f08d04a3c17269ffd517aa9a348f59c293
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Sep 9 23:46:56 2015 -0500
+
+    Updating gitignore
+
+commit 8e5d1d790fd8d7d26cf2180e97bb81777d1cd5f8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Sep 9 23:45:21 2015 -0500
+
+    Removing files in prep for submission
+
+commit 272877f9dce7aa7b70ff56c05939a5003eef7e70
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Sep 9 22:40:59 2015 -0500
+
+    Updating SphereCollatz with compressed version
+
+commit 770f7c8f7c89ba35c86a8f341d887a6891f151dc
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Sep 9 13:27:16 2015 -0500
+
+    Removing dev-test
+
+commit cdb80dfbe0033ff3134f5320fed19d068780ca04
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Sep 9 13:24:53 2015 -0500
+
+    Adding memo
+
+commit 2d97a25eb000a71cf34825ae5efd9fda297d587b
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Sep 8 14:42:02 2015 -0500
+
+    Oops
+
+commit 24e81a838d9da603feafcf1ac322564fd2038fa6
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Sep 8 14:40:36 2015 -0500
+
+    Fixed test cases; Fix #14
+
+commit 22be7a2acf5b196378802802079da947c4d71231
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Sep 8 14:35:08 2015 -0500
+
+    Updating execution bit; Fix #13
+
+commit 8b3f890f0a106e64b6a7308c4d2e30567dd14d4f
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Sep 8 14:18:39 2015 -0500
+
+    Fix #12; Work in progress
+
+commit 23369e823fb95a91f93000c5606f18a6df9ad189
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Sep 8 13:41:58 2015 -0500
+
+    Fix #11; Changed to lazy cache
+
+commit 02f02882055afb049b6b5bba400d634f50a5e22e
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Sun Sep 6 18:14:08 2015 -0500
+
+    Adding "optimized solution" from Sphere
+
+commit e35e8699221f9622579196f7525447fae736f478
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Sun Sep 6 00:37:01 2015 -0500
+
+    Adding SphereCollatz
+
+commit a5c7e358cd1252746f24bc28f1dd5479e702f143
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Sun Sep 6 00:12:00 2015 -0500
+
+    Testing...
+
+commit 963c1ca7da83165c5c00c5a2b384a962eeb6dbbf
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Sun Sep 6 00:02:24 2015 -0500
+
+    Setting EIDs
+
+commit 97002faa5dd51e3ee77bf678a6f0064927eb4498
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Sat Sep 5 23:49:12 2015 -0500
+
+    Adding collate
+
+commit 6c956ff30559fab51b56a50174938f0da9d7b97f
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Fri Sep 4 14:27:19 2015 -0500
+
+    Trigger Travis
+
+commit 7392701884856cdfe2ab6d654b05cd8cafbe00c8
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Fri Sep 4 14:21:56 2015 -0500
+
+    Completed #1 #3 #5 #6 #9

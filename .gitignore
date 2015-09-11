@@ -7,7 +7,7 @@ __pycache__
 .idea
 /collatz-tests
 *.tmp
-*.log
+RunCollatz.log
 
 peer-tester.sh
 build.sh

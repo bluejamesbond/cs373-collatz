@@ -1,0 +1,23 @@
+Name: Kurian, Mathew
+Github ID: mwkurian
+EID: mk26473
+10/10       Quality of Code
+8/10        Quality of Optimization
+20.0/20     Quality of the Unit Tests
+12/20       Quality of the Acceptance Tests
+10/10       Quality of Documentation
+0/10        Bonus Points. Bonus Points do not increase your max score
+60.0/70.0   Total
+
+Days Late: 0
+20% off for each day late
+
+Code Comments: 
+Didn’t implement the bit shift optimization.
+Unit Test Comments: 
+nan
+Acceptance Test Comments: 
+no corner case
+
+
+
